@@ -5,20 +5,25 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <title>profit or loss</title>
 </head>
 
 <body>
     <h1>Stock Profile & Loss Calculator</h1>
-    <label for="">Initial Price</label>
-    <input type="number">
-    <label for="">Quantity of Stocks</label>
-    <input type="number">
-    <label for="">Current Price</label>
-    <input type="number">
-    <button id=""></button>
-    <p></p>
+    <main>
+        <label for="initial-price">Initial Price</label>
+        <input id="initial-price" type="number" placeholder="Enter initial price here">
 
+        <label for="stocks-quantity">Quantity of Stocks</label>
+        <input id="stocks-quantity" type="number" placeholder="Enter quantity of stocks">
+
+        <label for="current-price">Current Price</label>
+        <input id="current-price" type="number" placeholder="Enter current price here">
+        <button id="submit-btn">Tell Me!</button>
+        <div id="output-box"></div>
+    </main>
+    <script src="script.js"></script>
 </body>
 
 </html>
