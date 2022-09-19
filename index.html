@@ -5,13 +5,26 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="images/stocks.svg">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
     <title>profit or loss</title>
 </head>
 
 <body>
-    <h1>Stock Profile & Loss Calculator</h1>
     <main>
+        <div class="heading-and-img-container">
+            <div class="heading">
+                <h1>Stock <span class="green-clr"> Profit</span> and</h1>
+                <h1 class="heading-bottom"><span class="red-clr">Loss</span> Calculator</h1>
+            </div>
+            <div>
+                <img src="images/stocks.svg" class="svg" alt="">
+            </div>
+        </div>
+
         <label for="initial-price">Initial Price</label>
         <input id="initial-price" type="number" placeholder="Enter initial price here">
 
@@ -20,9 +33,23 @@
 
         <label for="current-price">Current Price</label>
         <input id="current-price" type="number" placeholder="Enter current price here">
-        <button id="submit-btn">Tell Me!</button>
+        <button class="check-btn" id="submit-btn">Tell Me!</button>
         <div id="output-box"></div>
     </main>
+    <footer class="footer">
+        <div class="footer-header">social media presence</div>
+        <ul class="social-links">
+            <li class="non-bullet list-item-inline">
+                <a class="link footer-link" href="https://github.com/anupam1209">github</a>
+            </li>
+            <li class="non-bullet list-item-inline">
+                <a class="link footer-link" href="https://twitter.com/AnupamPrakash">twitter</a>
+            </li>
+            <li class="non-bullet list-item-inline">
+                <a class="link footer-link" href="https://www.linkedin.com/in/anupam-prakash-54822818b/">linkedIn</a>
+            </li>
+        </ul>
+    </footer>
     <script src="script.js"></script>
 </body>
 
