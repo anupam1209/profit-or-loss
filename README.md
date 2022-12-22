@@ -6,3 +6,5 @@ A website which helps user how much profit or loss he/she is making in percentag
 1. HTML
 2. CSS
 3. JavaScript
+4. Netlify
+
